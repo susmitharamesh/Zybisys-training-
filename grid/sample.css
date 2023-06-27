@@ -1,0 +1,48 @@
+*:hover {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15%;
+}
+body:hover {
+  background-color: rgba(233, 49, 17, 0.219);
+}
+imgs {
+  border-radius: 50%;
+}
+.parent {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto 300px 200px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 20px;
+}
+.box:nth-child(odd) {
+  background-color: blueviolet;
+  padding: 10px;
+  border: 20px;
+  font-size: 20px;
+}
+.box:nth-child(even) {
+  background-color: rgba(137, 43, 226, 0.356);
+  padding: 10px;
+  border: 20px;
+  font-size: 20px;
+}
+.box3 {
+  grid-row: span 2;
+}
+.container {
+  /* position:relative; */
+  display: flex;
+}
+.Description {
+  font-size: 20px;
+  font-weight: bold;
+}
+.quotes {
+  opacity: 75%;
+  font-size: 20px;
+}
+button {
+  background-color: rgba(182, 9, 96, 0.863);
+}
