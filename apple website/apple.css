@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.navbar {
+  background-color: rgba(0, 0, 0, 0.881);
+  color: #fff;
+}
+.caption {
+  font-weight: bolder;
+  text-align: center;
+}
+#logo1 {
+  width: 100%;
+}
+.apple-content {
+  position: absolute;
+  top: 130%;
+  right: 30%;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+.iphone14_pro > h1 {
+  position: absolute;
+  right: 500px;
+  top: 180%;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  align-items: center;
+}
+.iphone14_pro > p {
+  position: absolute;
+  right: 550px;
+  top: 190%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  align-items: center;
+}
+.iphone14_pro > a {
+  position: absolute;
+  right: 630px;
+  top: 200%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  align-items: center;
+}
+
+.iphone14 h1 {
+  position: absolute;
+  top: 320%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+.tradein {
+  margin-left: 10px;
+}
+
+.watch {
+  margin-left: 10px;
+}
+.carousel-inner img {
+  filter: saturate(30%);
+  /* make all photos black and white */
+  width: 100%; /* Set width to 100% */
+  margin: 2px;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+.footer-description {
+  background: #fbfbfd;
+  margin: 10px;
+}
