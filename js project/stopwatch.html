@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="timer.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="button">
+        <img
+          src="pause.png"
+          id="pause"
+          width="100px"
+          height="100px"
+          onclick="watchStop()"
+        />
+
+        <img
+          src="start.png"
+          id="start"
+          width="100px"
+          height="100px"
+          onclick="watchStart()"
+        />
+        <br />
+        <img
+          src="restart.png"
+          id="restart"
+          width="100px"
+          height="100px"
+          onclick="watchRestart()"
+        />
+        <img
+          src="store.jfif"
+          id="Lap"
+          width="100px"
+          height="100px"
+          onclick="watchLap()"
+        />
+      </div>
+      <h1>Laps</h1>
+      <div class="laps">
+        <p id="nowlap" class="timer__lap-now"></p>
+        <ul class="laps-list" id="laps"></ul>
+        <button id="clear">Clear Laps</button>
+      </div>
+    </div>
+    <script src="timer.js"></script>
+  </body>
+</html>
