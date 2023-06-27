@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css"href="form.css">
+    <script src="index.js"></script>
+    <title>GETTING DATA THROUGH FORM</title>
+</head>
+
+<body>
+    <div id="body">
+    <h1 align="center"> GETTING DETIALS THROUGH FORM</h1>
+    <div id="border">
+    <form onsubmit="event.preventDefault()">
+        <div id="form">
+        <label for="Name">NAME*:</label>
+        <input type="text" name="Name" id="Name" required>
+        <div class="mail">
+        <label for="Email">MAIL ID*:</label>
+        <input type ="email"
+               id="email"
+              name="email"
+              required="">
+        </div>
+        <br>
+       
+        <label for="age"> AGE*:</label>
+        <input type="number" name="number" id="age" required="">
+        <br>
+        
+        <center><input type="submit" name="submit" id="submit">
+&nbsp;
+      <input type="reset" name="reset" id="reset">
+        </div>
+        </center>
+    </form></div>
+    &nbsp;
+    <div class="table">
+    <table border="2px" align="center" id="table">
+        <thead>
+        <tr>
+   <th>NAME</th>
+ <th>MAIL ID</th>
+<th>AGE</th>
+ </tr>
+    </thead> 
+    </table>
+    </div>
+    </div>
+</div>
+</body>
+</html>
