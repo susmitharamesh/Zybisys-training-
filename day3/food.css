@@ -1,0 +1,59 @@
+.food {
+  border: 5px #000000e5;
+  width: 50%;
+  min-height: 100%;
+  background-image: url(NI.jpg);
+}
+h1 {
+  font-weight: bold;
+  color: #f0f8ff;
+  font-style: oblique;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.box1 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 35%;
+  min-height: 55%;
+
+  background-color: #ffff1aa9;
+}
+.box2 {
+  position: relative;
+  left: 300px;
+  bottom: 50px;
+  width: 35%;
+  background-color: #92d0d8b4;
+}
+.box3 {
+  position: relative;
+  left: 50px;
+  width: 75%;
+  background-color: #b1393f;
+}
+.box4 {
+  position: relative;
+  top: 10px;
+  left: 50px;
+  width: 75%;
+  background-color: rgb(255, 0, 181);
+}
+.box5 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 35%;
+  background-color: blueviolet;
+}
+.box6 {
+  position: relative;
+  left: 290px;
+  bottom: 50px;
+  width: 40%;
+  background-color: rgb(46, 43, 226);
+}
