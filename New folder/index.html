@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>Document</title>
+</head>
+<body><div class="container">
+<section id="w-form">
+    <form >
+        <h1>WEATHER FORM</h1>
+        <input type="text" id="locationInput" name="wname" onsubmit="event.preventDefault()">
+        <input type="button" value="submit" id="weather" onClick="addData()">
+    </form>
+</section>
+<section id="w-table">
+    <h1>WEATHER TABLE</h1>
+    <table id="table" border="2px solid black">
+        <tr>
+            <th>si no</th>
+            <th>location</th>
+            <th>show</th>
+            <th>delete</th>
+        </tr>
+        <tbody id="myTableBody">
+            
+        </tbody>
+    </table>
+</section>
+</div>
+<div id="loader"></div>
+<div id="popupbg" class="popupbg"></div>
+
+    <div id="popup" class="popup" onclick="openWeatherPopup()">
+        <span id="closeIcon" onclick="closePopup()">&times;</span>
+        <h2 id="location"></h2>
+       
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
