@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title> Newsletter sign-up form with success message</title> 
+  <!-- <script src="news.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="news.css" />
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="container">
+    <!-- <div class="main"> -->
+      
+        <div class="box1 ">
+          <h1>Stay updated!</h1>
+          <div class="update-description">
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          </div>
+          <section class="update-points">
+            <ul>
+              <li> Product discovery and building what matters</li>
+              <li> Measuring to ensure updates are a success</li>
+              <li> And much more! </li>
+            </ul>
+          </sec>
+          <form id="form">
+            <div class="email-box">
+            <h4>Email Address</h4>
+            <div class="error-box">Invalid Email Address</div>
+            <input id="emailInput" type="email" name="email" placeholder="email@company.com">
+  <br><br>
+            <input type="submit" value="Subscribe to monthly newsletter">
+          </div>
+        </div>
+          </form>
+      
+        <div class="box2">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" id="newsimg1">
+         
+        </div>
+ </div>
+ <div id="popupbg" class="popupbg"></div>
+
+ 
+    <!-- </div> -->
+ 
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+<div class="thanks" id="popup">
+  <img src="assets/images/icon-success.svg">
+ <h1>Thanks for subscribing!</h1> 
+
+  <p>A confirmation email has been sent to <strong id="name"></strong>.
+  Please open it and click the button inside to confirm your subscription.</p>
+
+<button id="close"> Dismiss message</button>
+</div>
+  <!-- Success message end -->
+  <script src="news.js"></script>
+</body>
+
+</html>
